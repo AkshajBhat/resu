@@ -1,0 +1,370 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+figure,
+figcaption,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Navigation styles */
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+.max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    color: #ff7b00;
+}
+
+/* Home Section styles */
+.home {
+    background: #222;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.text-1,
+.text-2 {
+    font-size: 36px;
+}
+
+.text-3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+a {
+    display: inline-block;
+    background-color: #ff7b00;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #333;
+}
+
+/* About Section styles */
+.about {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.column.right {
+    max-width: 600px;
+}
+
+.text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Services Section styles */
+.services {
+    background: #f8f8f8;
+    padding: 80px 0;
+}
+
+.serv-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    shift:margin-left;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    width: calc(50% - 40px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.box {
+    text-align: center;
+    padding: 30px;
+}
+
+.box i {
+    font-size: 40px;
+    color: #ff7b00;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Skills Section styles */
+.skills {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.column.left,
+.column.right {
+    flex: 1;
+}
+
+.bars {
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.line {
+    height: 8px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    position: relative;
+}
+
+.line.html {
+    width: 90%;
+}
+
+.line.css {
+    width: 80%;
+}
+
+.line.js {
+    width: 70%;
+}
+
+.line.react {
+    width: 60%;
+}
+
+.line.node {
+    width: 50%;
+}
+
+.line.mongodb {
+    width: 40%;
+}
+
+.line.flutter {
+    width: 30%;
+}
+
+.line.django {
+    width: 20%;
+}
+
+.line.python {
+    width: 10%;
+}
+
+/* Projects Section styles */
+.projects {
+    background: #f8f8f8;
+    padding: 80px 0;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    width: calc(50% - 40px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.box {
+    position: relative;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* Contact Section styles */
+.contact {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.column.left,
+.column.right {
+    flex: 1;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .menu {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .menu li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .column,
+    .box {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .carousel,
+    .serv-content {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+/* Add more responsive styles as needed */
